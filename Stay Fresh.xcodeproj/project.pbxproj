@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4F590FC92A09109600136445 /* Stay_FreshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590FC82A09109600136445 /* Stay_FreshApp.swift */; };
 		4F590FD02A09109600136445 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F590FCF2A09109600136445 /* Preview Assets.xcassets */; };
-		4F590FDA2A09109600136445 /* Stay_FreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590FD92A09109600136445 /* Stay_FreshTests.swift */; };
 		4F590FE42A09109600136445 /* Stay_FreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590FE32A09109600136445 /* Stay_FreshUITests.swift */; };
 		4F590FE62A09109600136445 /* Stay_FreshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590FE52A09109600136445 /* Stay_FreshUITestsLaunchTests.swift */; };
 		4F590FF32A09110F00136445 /* AppDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590FF22A09110F00136445 /* AppDelegates.swift */; };
@@ -58,7 +57,6 @@
 		4F590FC82A09109600136445 /* Stay_FreshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stay_FreshApp.swift; sourceTree = "<group>"; };
 		4F590FCF2A09109600136445 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F590FD52A09109600136445 /* Stay FreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stay FreshTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F590FD92A09109600136445 /* Stay_FreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stay_FreshTests.swift; sourceTree = "<group>"; };
 		4F590FDF2A09109600136445 /* Stay FreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stay FreshUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F590FE32A09109600136445 /* Stay_FreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stay_FreshUITests.swift; sourceTree = "<group>"; };
 		4F590FE52A09109600136445 /* Stay_FreshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stay_FreshUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				4F590FC72A09109600136445 /* Stay Fresh */,
 				4F590FF42A09112C00136445 /* Models */,
 				4F590FF52A09113A00136445 /* Controllers */,
-				4F590FD82A09109600136445 /* Stay FreshTests */,
 				4F590FE22A09109600136445 /* Stay FreshUITests */,
 				4F590FF62A09114A00136445 /* Helpers */,
 				4F590FC62A09109600136445 /* Products */,
@@ -150,14 +147,6 @@
 				4F590FCF2A09109600136445 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4F590FD82A09109600136445 /* Stay FreshTests */ = {
-			isa = PBXGroup;
-			children = (
-				4F590FD92A09109600136445 /* Stay_FreshTests.swift */,
-			);
-			path = "Stay FreshTests";
 			sourceTree = "<group>";
 		};
 		4F590FE22A09109600136445 /* Stay FreshUITests */ = {
@@ -442,7 +431,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F590FDA2A09109600136445 /* Stay_FreshTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
