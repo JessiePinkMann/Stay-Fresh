@@ -15,10 +15,21 @@ final class Stay_FreshUITestsLaunchTests: XCTestCase {
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
-
+        
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = "Launch Screen"
         attachment.lifetime = .keepAlways
         add(attachment)
     }
+    
+    func testLoginScreenTitle() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        // Проверка наличия элемента с идентификатором "LoginTitle"
+        let loginTitle = app.staticTexts["LoginTitle"]
+        XCTAssertTrue(loginTitle.exists, "Login screen title is missing.")
+    }
 }
+
+
