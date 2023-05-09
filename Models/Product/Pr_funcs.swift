@@ -35,6 +35,10 @@ class ProductManager {
         return products.first(where: { $0.expirationDate == expirationDate })
     }
     
+    func getProductByNotExpirationDate(expirationDate: Date) -> Product? {
+        return products.first(where: { $0.expirationDate != expirationDate })
+    }
+    
     func updateProduct(product: Product, newName: String?, newExpirationDate: Date?) {
         if let newName = newName {
             product.name = newName
