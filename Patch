@@ -1,0 +1,16 @@
+diff --git a/Models/User/Us_controlls.swift b/Models/User/Us_controlls.swift
+index fa4b605..b8c224e 100644
+--- a/Models/User/Us_controlls.swift
++++ b/Models/User/Us_controlls.swift
+@@ -32,3 +32,11 @@ var profile = getCurrentProfile() ?? Profile()
+ setUserName("Marvin McKinney", for: &profile)
+ setUserEmail("reg@ex.ru", for: &profile)
+ setUserPassword(123456789, for: &profile)
++
++setUserName("Kate Zheliba", for: &profile_2)
++setUserEmail("reg@ex.ru", for: &profile_2)
++setUserPassword(123456789, for: &profile_2)
++
++setUserName("Tatiana Zheliba", for: &profile_3)
++setUserEmail("reg@ex.ru", for: &profile_3)
++setUserPassword(123456789, for: &profile_3)
