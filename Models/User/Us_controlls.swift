@@ -32,3 +32,11 @@ var profile = getCurrentProfile() ?? Profile()
 setUserName("Marvin McKinney", for: &profile)
 setUserEmail("reg@ex.ru", for: &profile)
 setUserPassword(123456789, for: &profile)
+
+setUserName("Kate Zheliba", for: &profile)
+setUserEmail("reg@ex.ru", for: &profile)
+setUserPassword(123456789, for: &profile)
+
+setUserName("Tatiana Zheliba", for: &profile)
+setUserEmail("reg@ex.ru", for: &profile)
+setUserPassword(123456789, for: &profile)
