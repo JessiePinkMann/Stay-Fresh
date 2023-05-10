@@ -1,4 +1,17 @@
 import UIKit
+import Foundation
+
+class AuthInfo {
+    let email: String
+    let password: String
+    let fullName: String
+    
+    init(email: String, password: String, fullName: String) {
+        self.email = email
+        self.password = password
+        self.fullName = fullName
+    }
+}
 
 class LoginViewController: UIViewController {
     
@@ -46,6 +59,9 @@ class LoginViewController: UIViewController {
     
     @objc private func signUpButtonTapped() {
         let signUpVC = SignUpViewController()
-        navigationController?.pushViewController(signUpVC, animated: true)
+    if    objc_getClass(&AuthInfo) != nil
+            return True
+    
+        
     }
 }
