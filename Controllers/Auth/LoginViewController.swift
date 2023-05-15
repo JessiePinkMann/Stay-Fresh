@@ -1,6 +1,15 @@
 import UIKit
 import Foundation
+import NotificationCenter
 
+func sendNotificationForExpiringProducts(_ products: [Product]) {
+    let expiringProducts = getExpiringProducts(products)
+    if !expiringProducts.isEmpty {
+        let notificationService = NotificationService()
+        let productNames = expiringProducts.map { $0.name }.joined(separator: ", ")
+        let notificationContent = "The following products are expiring soon: \(productNames)"
+        notificationService.sendNotification(with: notificationContent)
+        
 class AuthInfo {
     let email: String
     let password: String
