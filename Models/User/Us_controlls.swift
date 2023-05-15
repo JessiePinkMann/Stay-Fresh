@@ -42,3 +42,9 @@ setUserPassword(123456789, for: &profile_2)
 setUserName("Tatiana Zheliba", for: &profile_3)
 setUserEmail("reg@ex.ru", for: &profile_3)
 setUserPassword(123456789, for: &profile_3)
+
+set CurrencyFormatStyleConfiguration(&profile){
+    local = getCurrentProfile()
+    readLine(strippingNewline: true)
+    Set(active) = profile;
+}
